@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Loading saved model
-loaded_model = pickle.load(open('trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model (3).sav', 'rb'))
 
 # Creating prediction
 def credit_card_prediction(input_data):
